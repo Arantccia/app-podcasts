@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Logs
+*.log
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Build output
+dist/
+build/
+*.js.map
+
+# IDE specific files
+*.iml
+
+# Compiled Python files
+*.pyc
+
+# Compiled TypeScript files
+*.tsbuildinfo
+
+# macOS specific files
+*.DS_Store
+
+# Visual Studio Code workspace settings
+.code-workspace
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Windows folder configuration file
+Desktop.ini
+
+# JetBrains IDEs
+.idea/
+
+# npm package file
+package-lock.json
