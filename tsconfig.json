@@ -1,25 +1,35 @@
 {
-    "compilerOptions": {
-      "target": "es5",                    
-      "module": "commonjs",               
-      "strict": true,                     
-      "esModuleInterop": true,            
-      "skipLibCheck": true,              
-      "forceConsistentCasingInFileNames": true, 
-      "jsx": "react",                     
-      "sourceMap": true,                  
-      "declaration": true,                
-      "outDir": "./dist",                 
-      "baseUrl": "./src",                 
-      "paths": {
-        "*": ["src/*"]                    
-      }
-    },
-    "include": [
-      "src/**/*.ts",
-      "src/**/*.tsx"
+  "compilerOptions": {
+    "module": "ES2015",
+    "target": "ES2015",
+    "strict": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "jsx": "react",
+    "types": [
+      "node",
+      "jest",
+      "@types/jest",
+      "@testing-library/jest-dom"
     ],
-    "exclude": [
-      "node_modules"
-    ]
-  }
+    "sourceMap": true,
+    "declaration": true,
+    "baseUrl": "./src",
+    "paths": {
+      "*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
