@@ -8,8 +8,8 @@
     "build": "webpack --config webpack.prod.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx}"
   },
   "keywords": [],

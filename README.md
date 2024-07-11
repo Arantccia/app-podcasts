@@ -28,4 +28,4 @@ mini-app for listening to podcasts Musical.
 
 ## cypress - console node
  
-- npm run cypress:open
+- npm run cy:open
